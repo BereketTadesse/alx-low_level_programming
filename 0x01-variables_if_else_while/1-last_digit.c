@@ -6,18 +6,18 @@
 int main(void)
 {
 	int n;
+	int m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-
-	int lastDigit = abs(n) % 10;
-
-	if (lastDigit > 5)
-		printf("%d and is greater than 5", lastDigit);
-	else if (lastDigit == 0)
-		printf("%d is 0", lastDigit);
-	else if (lastDigit > 5 || lastDigit != 0)
-		pritnf("%d is less than 6 and not 0", lastDigit)
+	int m = abs(n) % 10;
+	if (m > 5)
+		printf("%d and is greater than 5", m);
+	else if (m == 0)
+		printf("%d is 0", m);
+	else if (m > 5 && m != 0)
+		 printf("%d is less than 6 and not 0", m);
+	printf("\n")
 	return (0);
 }
