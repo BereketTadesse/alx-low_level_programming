@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	char lowercase;
+	char i;
 
-	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
-		putchar(lowercase);
+	for (i = 'a'; i <= 'z'; i++)
+		putchar(i);
 	printf("\n");
 	return (0);
 }
