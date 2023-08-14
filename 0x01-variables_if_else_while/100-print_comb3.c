@@ -20,9 +20,9 @@ int main(void) /* main - is the main function*/
 				putchar(n);
 				putchar(m);
 				if (n == '8' && m == '9')
-					continue;
-					putchar(',');
-					putchar(' ');
+					break;
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
